@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    {% block head%}
+
+    <title>Rocketseat</title>
+
+    {% endblock%}
+
+    <link rel="icon" href="https://raw.githubusercontent.com/Rocketseat/bootcamp-launchbase-desafios-02/master/desafios/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="links">
+            <a href="/about">Sobre</a>
+            <a href="/">Conteúdos</a>
+            <a href="https://discordapp.com/invite/gCRAFhc" target="blanked">Comunidade</a>
+            <a href="mailto:oi@rocketseat.com.br" target="blanked">Email</a>
+            <a href="tel:+55479920788767" target="blanked">Telefone</a>
+        </div>
+
+    </header>
+
+    {% block content %}{% endblock %}
+
+</body>
+
+
+</html>
